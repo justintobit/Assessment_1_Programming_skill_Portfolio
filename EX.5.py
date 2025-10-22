@@ -42,11 +42,11 @@ if number==2: #if the input number is 2 asks if it is a leap year
     else:
         print("number of days in Month", name[number], "is 28", "days in a Leap year")
 
-state=number in name
+state=number in name# to assign and check the input number to corresponding number in the dictionary
 
-if state==True:
+if state==True:# if the input is number
     print("number of days in Month", name[number], "is", ofdays[number],"days")
-else:
+else:# if the number input is higher than 12 or lower than 1
     print("Inalid number")
             
 
